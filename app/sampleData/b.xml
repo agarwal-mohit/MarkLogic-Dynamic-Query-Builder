@@ -1,0 +1,14 @@
+<Doc>
+	<Environment>Acetaldehyde</Environment>
+	<MaterialGroup>Miscellaneous</MaterialGroup>
+	<MaterialFamily>Noble metals</MaterialFamily>
+	<Material>Platinum</Material>
+	<crRate>0.05</crRate>
+	<UNS>P07010</UNS>
+	<Duration>5d</Duration>
+	<Concentration>75</Concentration>
+	<TemperatureMin>300</TemperatureMin>
+	<TemperatureMax>500</TemperatureMax>
+	<PressureMin>100</PressureMin>
+	<PressureMax>150</PressureMax>
+</Doc>

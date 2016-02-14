@@ -1,0 +1,14 @@
+<Doc>
+	<Environment>Acetaldehyde</Environment>
+	<MaterialGroup>Miscellaneous</MaterialGroup>
+	<MaterialFamily>xx</MaterialFamily>
+	<Material>Magnesium</Material>
+	<crRate>D</crRate>
+	<UNS>P04995</UNS>
+	<Duration></Duration>
+	<Concentration>Pure</Concentration>
+	<TemperatureMin>200</TemperatureMin>
+	<TemperatureMax>400</TemperatureMax>
+	<PressureMin>200</PressureMin>
+	<PressureMax>400</PressureMax>
+</Doc>

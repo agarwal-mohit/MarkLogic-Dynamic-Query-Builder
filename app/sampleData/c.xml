@@ -1,0 +1,14 @@
+<Doc>
+	<Environment>Acetic Acid</Environment>
+	<MaterialGroup>Refractory metals and alloys</MaterialGroup>
+	<MaterialFamily>Titanium and alloys</MaterialFamily>
+	<Material>Titanium</Material>
+	<crRate>0.013</crRate>
+	<UNS></UNS>
+	<Duration>1y</Duration>
+	<Concentration>58</Concentration>
+	<TemperatureMin>2000</TemperatureMin>
+	<TemperatureMax>4000</TemperatureMax>
+	<PressureMin>20</PressureMin>
+	<PressureMax>40</PressureMax>
+</Doc>

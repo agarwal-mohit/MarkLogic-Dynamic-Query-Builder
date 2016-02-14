@@ -1,0 +1,13 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+GET     /search           controllers.SearchControllerInstance.search(query:String ?= "")
+#localhost:8080/search?query=PressureMin:10^gt,PressureMax:500^lt,TemperatureMin:100^gt,TemperatureMax:500^lt,Environment:Acetaldehyde^eq@Acetic Acid^eq
+
+GET    /context-extract    controllers.SearchControllerInstance.getContext(query:String ?= "")
+#localhost:8080/context-extract?query=5d

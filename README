@@ -1,0 +1,4 @@
+Install xquery modules in Marklogic from xquery folder.
+Ingest sample xmls from sampleData folder into Marklogic.
+export env variables using export-env-variables.
+Start server and hit endpoints like examples specified in routes file.
