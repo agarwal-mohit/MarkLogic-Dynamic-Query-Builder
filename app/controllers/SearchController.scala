@@ -6,7 +6,7 @@ import util.Constants._
 import util.XmlExtensions._
 
 import scala.concurrent.ExecutionContext.Implicits.global
-import scala.xml.{NodeSeq, Elem}
+import scala.xml.Elem
 
 case class SearchResult(Environment:String = "NA", MaterialGroup: String ="NA", MaterialFamily: String="NA", Material: String="NA", CRRate: String="NA", Duration: String="NA",Concentration: String="NA",PressureMin:String="NA",PressureMax:String="NA",TemperatureMin:String="NA", TemperatureMax:String="NA",Context: String ="Context")
 

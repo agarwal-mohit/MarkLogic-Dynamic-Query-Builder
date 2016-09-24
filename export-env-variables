@@ -1,5 +1,4 @@
 export ML_HOST=localhost
 export MARKLOGIC_DOCUMENTS_URL=http://$ML_HOST:9995/api
-export MARKLOGIC_TRANSACTIONS_URL=http://$ML_HOST:9997/api
 export MARKLOGIC_USERNAME=admin
 export MARKLOGIC_PASSWORD=admin

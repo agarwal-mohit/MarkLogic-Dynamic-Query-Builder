@@ -1,4 +1,19 @@
-Install xquery modules in Marklogic from xquery folder.
-Ingest sample xmls from sampleData folder into Marklogic.
-export env variables using export-env-variables.
-Start server and hit endpoints like examples specified in routes file.
+Prerequisites -
+  Marklogic is installed with HTTP server configured on 9995.
+
+This is a scala play application which uses Marklogic.
+It demonstrates how we can use Marklogic to build a dynamic query builder.
+
+This application has two endpoints -
+  1. Dynamic Search - User can give multiple search options like what temperature / pressure range he is interested in
+  under what environment. Given these inputs, output of endpoint will be xml's fulfilling these multiple dynamic
+  search criteria's.
+
+  2. Context Finder - Given a search term, how we can identify context from it. e.g If search term is Gold,
+  output of this endpoint will be Gold -> Material.
+
+How to use this application -
+1. Install xquery modules in Marklogic from xquery folder.
+2. Ingest sample xmls from sampleData folder into Marklogic.
+3. Run export-env-variables script.
+4. Start play server and hit endpoints specified in routes file.
